@@ -5,6 +5,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   direction: rtl;
+  font-family: "Noori Nastaleeq";
 }
 
 @font-face {
@@ -26,4 +27,16 @@ body {
   src: url("../public/fonts/AlMajeedQuranic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
+
+.font-nori {
+  font-family: "Noori Nastaleeq", serif;
+}
+
+.font-noto {
+  font-family: "Noto Nastaliq", serif;
+}
+
+.font-almajeed {
+  font-family: "AlMajeed", serif;
 }
