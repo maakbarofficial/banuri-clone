@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+
+@font-face {
+  font-family: "Noori Nastaleeq";
+  src: url("../public/fonts/JameelNooriNastaleeq.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Nastaliq";
+  src: url("../public/fonts/NotoNastaliqUrdu-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AlMajeed";
+  src: url("../public/fonts/AlMajeedQuranic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

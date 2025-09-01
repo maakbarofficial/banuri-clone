@@ -1,7 +1,9 @@
 export default function Home() {
   return (
     <div>
-      <h1>Hello</h1>
+      <p className="urdu-text">
+        یہ اردو نوری نستعلیق فانٹ میں لکھا ہوا ہے۔
+      </p>
     </div>
   );
 }
